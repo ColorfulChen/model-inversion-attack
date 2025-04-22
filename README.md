@@ -10,11 +10,7 @@ pip install -r requirements.txt
 
 ## 命令行参数说明
 ```python
-python main.py model-inversion attack-dataset-cmd \
-  --dataset_path dataset/data_pgm \
-  --output_dir attack_results \
-  --iterations 50 \
-  --loss_function crossEntropy
+python main.py model-inversion attack-dataset-cmd --dataset_path dataset/data_pgm --output_dir attack_results --iterations 50 --loss_function crossEntropy
 ```
 
 | 参数 | 类型 | 默认值 | 说明 |
