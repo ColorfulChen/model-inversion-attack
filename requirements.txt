@@ -1,0 +1,7 @@
+torch==2.2.0
+torchvision==0.17.0
+numpy==1.24.3
+scikit-learn==1.2.2
+matplotlib==3.7.1
+pandas==1.5.3
+click==7.1.2
